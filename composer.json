@@ -1,0 +1,20 @@
+{
+    "name": "dependenci/core",
+    "description": "The DependenCI Core",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Piedrafita",
+            "email": "soy@miguelpiedrafita.com",
+            "website": "https://miguelpiedrafita.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "composer/semver": "^1.4",
+        "knplabs/packagist-api": "^1.4",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
