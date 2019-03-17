@@ -1,4 +1,4 @@
 ``` php
-$isOutdated = \DependenCI\Core\Bridge::isOutdated($composer, $excluded, $branch);
-$outdated = \DependenCI\Core\Bridge::getOutdated($composer, $excluded, $branch);
+$isOutdated = \DependenCI\Core\Bridge::isOutdated($composer, $excluded);
+$outdated = \DependenCI\Core\Bridge::getOutdated($composer, $excluded);
 ```
